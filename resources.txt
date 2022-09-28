@@ -1,0 +1,3 @@
+Resources used to complete this project:
+https://api.jquery.com/
+https://www.w3schools.com/jquery/
