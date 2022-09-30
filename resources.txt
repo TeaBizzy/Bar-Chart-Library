@@ -6,3 +6,5 @@ https://www.w3schools.com/jquery/
 https://www.w3schools.com/jquery/jquery_dom_add.asp
 https://www.w3schools.com/cssref/sel_class.asp
 https://www.geeksforgeeks.org/how-to-access-variables-from-another-file-using-javascript/
+https://www.geeksforgeeks.org/how-to-float-three-div-side-by-side-using-css/
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation
