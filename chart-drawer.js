@@ -1,49 +1,19 @@
+function changeTitle(selector, title){
+  $(selector).text(title);
+}
 
+function resizeChart(width, height){
+  $("#bar-chart").width(width);
+  $("#bar-chart").height(height);
+}
+
+// Used to create all the elements via code. We may want to do that again when the project is complete.
+// TODO: Determine if chart should be created by code, or require users to use an HTML template.
 function drawChart(){
-  var newChart = document.createElement("div");
-  $(newChart).addClass("bar-chart");
-  $(newChart).width(ChartData.chartSize[0]);
-  $(newChart).height(ChartData.chartSize[1]);
-
-  var newYAxis = document.createElement("div");
-  $(newYAxis).addClass("y-axis");
-  $(newChart).append(newYAxis);
-
-  var titleDiv = document.createElement("div");
-  $(titleDiv).addClass("title-div");
-  $(newChart).append(titleDiv);
-
-  var dataDiv = document.createElement("div");
-  $(dataDiv).addClass("data-div");
-  $(newChart).append(dataDiv);
-
-
-  var newXAxis = document.createElement("div");
-  $(newXAxis).addClass("x-axis");
-  $(newChart).append(newXAxis);
-
-  $("body").append(newChart);
-
-  // Draw y titles.
-  var newYAxisTitle = document.createElement("h6");
-  $(newYAxisTitle).addClass("y-axis-title");
-  $(newYAxisTitle).text(ChartData.yAxisName);
-  $(".y-axis").append(newYAxisTitle);
-
-  // Draw title.
-  var newChartTitle = document.createElement("h5");
-  $(newChartTitle).addClass("main-title");
-  $(newChartTitle).text(ChartData.chartName);
-  $(".title-div").append(newChartTitle);
-
-  // Draw x & y titles.
-  var newXAxisTitle = document.createElement("h6");
-  $(newXAxisTitle).addClass("x-axis-title");
-  $(newXAxisTitle).text(ChartData.xAxisName);
-  $(".x-axis").append(newXAxisTitle);
-
-
-
+  resizeChart(ChartData.chartSize[0], ChartData.chartSize[1]);
+  changeTitle(".chart-title", ChartData.chartTitle);
+  changeTitle(".y-axis-title", ChartData.yAxisTitle);
+  changeTitle(".x-axis-title", ChartData.xAxisTitle);
   return;
 }
 

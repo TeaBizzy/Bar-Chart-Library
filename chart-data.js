@@ -1,6 +1,6 @@
 var ChartData = {
-  chartName: "Average Pets Per House",
-  xAxisName: "Pets",
-  yAxisName: "Average",
+  chartTitle: "Average Pets Per House",
+  xAxisTitle: "Pets",
+  yAxisTitle: "Average",
   chartSize: [300, 300]
 };
