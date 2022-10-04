@@ -12,8 +12,8 @@ function resizeChart(width, height){
 function drawChart(){
   resizeChart(ChartData.chartSize[0], ChartData.chartSize[1]);
   changeTitle(".chart-title", ChartData.chartTitle);
-  changeTitle(".y-axis-title", ChartData.yAxisTitle);
-  changeTitle(".x-axis-title", ChartData.xAxisTitle);
+  changeTitle("#y-axis-title", ChartData.yAxisTitle);
+  changeTitle("#x-axis-title", ChartData.xAxisTitle);
   return;
 }
 
