@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-#y-axis-title{
+.vertical-text{
   writing-mode: sideways-lr;
 }
 
@@ -30,7 +30,6 @@
   float: left;
   width: 10%;
   height: 80%;
-  margin-bottom: 10%;
   display: flex;
 }
 
