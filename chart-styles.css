@@ -17,6 +17,7 @@
 }
 
 .vertical-text{
+  height: 100%;
   writing-mode: sideways-lr;
 }
 
