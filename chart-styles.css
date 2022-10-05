@@ -66,3 +66,10 @@
   width: 30%;
   background-color: black;
 }
+
+#y-axis-line{
+  float: left;
+  width: 2px;
+  height: 80%;
+  background-color: black;
+}
