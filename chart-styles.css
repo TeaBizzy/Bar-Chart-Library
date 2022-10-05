@@ -41,6 +41,7 @@
 }
 
 .data-div{
+  display: flex;
   width: 70%;
   height: 79%;
   float: left;
@@ -73,4 +74,11 @@
   height: 2px;
   width: 30%;
   background-color: black;
+}
+
+.bar{
+  margin-right: 10px;
+  align-self: flex-end;
+  float: left;
+  background-color: blue;
 }
