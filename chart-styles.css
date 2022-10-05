@@ -41,9 +41,15 @@
 }
 
 .data-div{
-  width: 90%;
-  height: 80%;
-  margin-left: 10%;
+  width: 70%;
+  height: 79%;
+  float: left;
+  border-left: 2px;
+  border-bottom: 2px;
+  border-top: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: black;
 }
 
 .test{
@@ -55,6 +61,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  translate: (0,-15px);
 }
 
 .plot-text{
@@ -65,12 +72,5 @@
 .dash{
   height: 2px;
   width: 30%;
-  background-color: black;
-}
-
-#y-axis-line{
-  float: left;
-  width: 2px;
-  height: 80%;
   background-color: black;
 }
